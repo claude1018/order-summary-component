@@ -1,6 +1,6 @@
 # Frontend Mentor - Order summary card solution
 
-This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,11 +25,10 @@ Users should be able to:
 ![](./osc-ss-desktop.png)
 ![](./osc-ss-mobile.png)
 
-
 ### Links
 
-- Solution URL: [FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [Github Pages](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor](https://www.frontendmentor.io/solutions/order-summary-component-using-sass-Sk9DiJSVc)
+- Live Site URL: [Github Pages](https://claude1018.github.io/order-summary-component/)
 
 ## My process
 
@@ -44,4 +43,3 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@claude1018](https://www.frontendmentor.io/profile/claude1018)
-
