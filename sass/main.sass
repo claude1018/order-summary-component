@@ -1,0 +1,118 @@
+$pale-blue: hsl(225, 100%, 94%)
+$bright-blue: hsl(245, 75%, 52%)
+$very-pale-blue: hsl(225, 100%, 98%)
+$desaturated-blue: hsl(224, 23%, 55%)
+$dark-blue: hsl(223, 47%, 23%)
+$size-200: 0.625rem
+$size-300: 0.875rem
+$size-400: 1rem
+$size-500: 1.375rem
+$border-radius: 1.375rem
+$card-width: 20.625rem
+  
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+
+html
+  font-size: 16px
+  font-family: 'Red Hat Display', sans-serif
+
+body
+  height: 100vh
+  background: $pale-blue
+
+main
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+
+.card__order-summary
+  background: #fff
+  border-radius: $border-radius
+  margin: 0 $size-500
+  box-shadow: 0px 5px 10px 2px darken($pale-blue, 6)
+  width: min(100%, $card-width)
+
+  figure img
+    width: 100%
+    height: auto
+    border-radius: $border-radius $border-radius 0 0
+  
+  .details
+    text-align: center
+    padding: 0 0 $size-400 + $size-200
+    margin-top: $size-400 * 2
+    h1
+      font-size: $size-500
+      color: $dark-blue
+      margin-bottom: $size-500
+    
+    p
+      font-size: $size-400
+      color: $desaturated-blue
+      line-height: $size-400 * 2
+  
+  .order
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 $size-400 + $size-200
+    margin-bottom: $size-400 * 2
+    &__price
+      & > *
+        display: block
+        font-size: $size-300
+      strong
+        color: $dark-blue
+      small
+        color: $desaturated-blue
+    
+    a
+      font-size: $size-300
+      color: $bright-blue
+      font-weight: 700
+  
+  .buttons
+    padding: 0 $size-400 + $size-200
+    margin-bottom: $size-300
+    & > *
+      display: block
+    
+    button
+      &:first-child
+        all: unset
+        background: $bright-blue
+        width: 100%
+        font-size: $size-400
+        color: #fff
+        font-weight: bold
+        border-radius: $size-500 - $size-200
+        padding: $size-400 0
+        text-align: center
+        margin-bottom: $size-200
+      &:last-child
+        all: unset
+        width: 100%
+        text-align: center
+        padding: $size-400 0
+        font-size: $size-400
+        color: $desaturated-blue
+        font-weight: bold
+
+footer
+  text-align: center
+  padding: $size-200 0
+  .attribution
+    font-size: clamp($size-300, 0.5vw + $size-200, $size-400)
+    color: $dark-blue
+
+    a
+      color: $bright-blue
+
+   
+        
+    
+
